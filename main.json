@@ -1,0 +1,6160 @@
+[{
+  "_id": {
+    "$oid": "669221527e30dea31e412a0f"
+  },
+  "department": "testcameras",
+  "camera_ip": "10.11.3.147",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "test08",
+  "plant": "testcamera",
+  "area": "testcamera1",
+  "imagename": "docketrun_2024_09_28_17_43_59_775440.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 10,
+  "alarm_type": {
+    "hooter": true,
+    "relay": true
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": "10.11.1.162",
+    "relay_ip": "10.11.1.163"
+  },
+  "roi_data": [
+    {
+      "SNo": 1,
+      "alarm_ip_address": {
+        "hooter_ip": "10.11.1.162",
+        "relay_ip": "10.11.1.163"
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": true
+      },
+      "bb_box": "50;136;177;113;401;92;648;128;852;189;940;274;942;276;944;382;936;442;927;466;913;493;826;523;510;522;167;517;42;510;22;385;19;214;16;184;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test1"
+    },
+    {
+      "SNo": 2,
+      "alarm_ip_address": {
+        "hooter_ip": "10.11.1.162",
+        "relay_ip": "10.11.1.163"
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": true
+      },
+      "bb_box": "90;168;199;155;455;121;538;136;676;168;837;258;857;286;881;385;869;416;836;454;757;472;685;477;519;478;361;472;166;452;99;436;65;374;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 2,
+      "roi_name": "test2"
+    },
+    {
+      "SNo": 3,
+      "alarm_ip_address": {
+        "hooter_ip": "10.11.1.162",
+        "relay_ip": "10.11.1.163"
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": true
+      },
+      "bb_box": "158;210;394;165;447;149;575;156;650;196;736;267;774;344;757;368;592;396;275;403;173;344;122;301;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 3,
+      "roi_name": "test3"
+    },
+    {
+      "SNo": 4,
+      "alarm_ip_address": {
+        "hooter_ip": "10.11.1.162",
+        "relay_ip": "10.11.1.163"
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": true
+      },
+      "bb_box": "220;228;374;195;503;162;569;230;639;263;654;290;587;324;356;360;259;319;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 4,
+      "roi_name": "test4"
+    },
+    {
+      "SNo": 5,
+      "alarm_ip_address": {
+        "hooter_ip": "10.11.1.162",
+        "relay_ip": "10.11.1.163"
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": true
+      },
+      "bb_box": "294;254;433;209;479;212;522;261;536;280;489;291;402;292;320;290;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 5,
+      "roi_name": "test5"
+    },
+    {
+      "SNo": 6,
+      "alarm_ip_address": {
+        "hooter_ip": "10.11.1.162",
+        "relay_ip": "10.11.1.163"
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": true
+      },
+      "analyticstype": 0,
+      "bb_box": "19;14;926;11;947;276;23;216;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 6,
+      "roi_name": "test6"
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [
+    {
+      "area_name": "crowdcountTestROi4",
+      "bb_box": "71;117;239;107;270;95;466;95;625;119;746;159;873;202;943;310;939;330;932;462;932;465;812;495;713;508;470;492;187;449;46;442;26;292;4;209;",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 0,
+          "max_count": 4
+        }
+      ],
+      "full_frame": false,
+      "roi_id": 1,
+      "roi_name": "crowdcountTestROi4",
+      "alarm_type": {
+        "hooter": null,
+        "relay": null,
+        "voice_announcement": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null,
+        "voice_announcement_ip": null
+      }
+    }
+  ],
+  "ppe_data": [
+    {
+      "helmet": false,
+      "vest": true,
+      "crash_helmet": true,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet"
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "vest"
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "crash_helmet"
+        }
+      ]
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.11.3.147:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-07-13 12:10:18",
+  "ai_solution": {
+    "CR": false,
+    "POC": true,
+    "PPE": false,
+    "RA": false,
+    "dust": true,
+    "fire": true,
+    "smoke": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": "type2",
+    "relay": "type2"
+  },
+  "genetic_id": "",
+  "id": "669221527e30dea31e412a0f",
+  "firesmoke_data": {
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    },
+    "roi_parameters": [
+      {
+        "alarm_ip_address": {
+          "hooter_ip": "10.11.1.162",
+          "relay_ip": "10.11.1.163"
+        },
+        "alarm_type": {
+          "hooter": true,
+          "relay": false
+        },
+        "bb_box": "278;88;338;304;180;375;150;276;148;147;",
+        "camera_type": "bullet",
+        "full_frame": false,
+        "label_name": [
+          "fire",
+          "smoke"
+        ],
+        "presetid": "",
+        "presetlocation": "fire_smoke",
+        "roi_id": 1,
+        "roi_name": "fire_smoke"
+      }
+    ]
+  },
+  "poc": {
+    "wheel_count": [
+      {
+        "class_name": [
+          "wheel"
+        ],
+        "line_bbox": {
+          "line": "341;201;666;215;",
+          "arrow": "484;293;574;125;"
+        },
+        "area_name": "test",
+        "roi_id": 1,
+        "direction": "entry"
+      },
+      {
+        "area_name": "test2edited",
+        "class_name": [
+          "wheel"
+        ],
+        "direction": "entry",
+        "line_bbox": {
+          "arrow": "324;244;326;110;",
+          "line": "275;159;435;159;"
+        },
+        "roi_id": 3
+      },
+      {
+        "class_name": [
+          "wheel"
+        ],
+        "line_bbox": {
+          "line": "348;66;505;94;",
+          "arrow": "449;148;454;22;"
+        },
+        "area_name": "test4",
+        "roi_id": 5,
+        "direction": "entry"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81372ca732b1513e12ed"
+  },
+  "department": "RMHS18errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+  "plant": "ECR-19",
+  "area": "Roughing Mill#2 stand jobs 19",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:49:47",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "Parking": false,
+    "RA": true,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": true,
+    "fire": true,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "vest": true,
+      "label_name": [],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      }
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "36;21;946;21;953;524;19;523;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": true,
+  "coin_details": null,
+  "alarm_type": {
+    "hooter": true,
+    "relay": true
+  },
+  "alarm_ip_address": {
+    "hooter_ip": "87654321",
+    "relay_ip": "87654321"
+  },
+  "alarm_version": {
+    "hooter": "type1",
+    "relay": "type3"
+  },
+  "camera_ip": "10.6.3.178",
+  "camera_id": null,
+  "cameraname": "10-6-3-178",
+  "rtsp_url": "rtsp://admin:admin123@10.6.3.178:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_28_17_44_11_279072.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 16,
+  "genetic_id": "",
+  "id": "669b81372ca732b1513e12ed"
+},
+{
+  "_id": {
+    "$oid": "669b816b2ca732b1513e12f3"
+  },
+  "department": "RMHS28",
+  "plant": "ECR-29",
+  "area": "Roughing Mill#2 stand jobs 29",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:41",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": true,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 2,
+          "max_count": 3
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "bb_box": "274;28;274;28;448;115;301;91;",
+      "roi_name": "test",
+      "roi_id": 1,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null,
+        "channel": ""
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "analyticstype": 0
+    }
+  ],
+  "alarm_enable": true,
+  "coin_details": null,
+  "alarm_type": {
+    "hooter": true,
+    "relay": true
+  },
+  "alarm_ip_address": {
+    "hooter_ip": "10.11.1.25",
+    "relay_ip": "192.168.1.1"
+  },
+  "alarm_version": {
+    "hooter": "type1",
+    "relay": "type3"
+  },
+  "camera_ip": "10.4.3.149",
+  "camera_id": null,
+  "cameraname": "10-4-3-149",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.149:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_07_29_13_17_06_411946.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 9,
+  "genetic_id": "",
+  "id": "669b816b2ca732b1513e12f3",
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        },
+        "alarm_type": {
+          "channel": "",
+          "hooter": false,
+          "relay": false
+        },
+        "bb_box": "603;28;603;28;722;152;500;187;",
+        "camera_type": "bullet",
+        "full_frame": false,
+        "label_name": [
+          "smoke"
+        ],
+        "presetid": "",
+        "presetlocation": "test",
+        "roi_id": 1,
+        "roi_name": "test"
+      },
+      {
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        },
+        "alarm_type": {
+          "channel": "",
+          "hooter": false,
+          "relay": false
+        },
+        "bb_box": "79;126;204;46;299;131;",
+        "camera_type": "bullet",
+        "full_frame": false,
+        "label_name": [
+          "dust",
+          "smoke"
+        ],
+        "presetid": "",
+        "presetlocation": "test2",
+        "roi_id": 2,
+        "roi_name": "test2"
+      },
+      {
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        },
+        "alarm_type": {
+          "channel": "",
+          "hooter": false,
+          "relay": false
+        },
+        "bb_box": "253;169;323;42;449;64;",
+        "camera_type": "bullet",
+        "full_frame": false,
+        "label_name": [
+          "dust",
+          "smoke"
+        ],
+        "presetid": "",
+        "presetlocation": "test3",
+        "roi_id": 3,
+        "roi_name": "test3"
+      },
+      {
+        "bb_box": "400;145;460;25;599;105;",
+        "roi_name": "test5",
+        "roi_id": 4,
+        "label_name": [
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "test5",
+        "full_frame": false,
+        "alarm_type": {
+          "hooter": false,
+          "relay": true,
+          "channel": 10
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": "192.168.1.1"
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "669b816d2ca732b1513e12f4"
+  },
+  "department": "RMHS30",
+  "plant": "ECR-31",
+  "area": "Roughing Mill#2 stand jobs 31",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:43",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "Parking": false,
+    "RA": false,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": true,
+    "fire": true,
+    "smoke": true,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": false,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "label": "helmet"
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "label": "vest"
+        },
+        {
+          "hooter": true,
+          "relay": true,
+          "hooter_ip": "98765432",
+          "relay_ip": "098765",
+          "label": "crash_helmet"
+        }
+      ]
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": true,
+  "coin_details": null,
+  "alarm_type": {
+    "hooter": true,
+    "relay": true
+  },
+  "alarm_ip_address": {
+    "hooter_ip": "98765432",
+    "relay_ip": "098765"
+  },
+  "alarm_version": {
+    "hooter": "type1",
+    "relay": "type3"
+  },
+  "camera_ip": "10.4.3.151",
+  "camera_id": null,
+  "cameraname": "10-4-3-151",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.151:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_28_17_44_31_535078.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 12,
+  "firesmoke_data": {
+    "roi_parameters": [],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  },
+  "id": "669b816d2ca732b1513e12f4",
+  "genetic_id": ""
+},
+{
+  "_id": {
+    "$oid": "669b816f2ca732b1513e12f5"
+  },
+  "department": "RMHS31",
+  "plant": "ECR-32",
+  "area": "Roughing Mill#2 stand jobs 32",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:45",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": true,
+    "dust": true,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "11;9;933;17;955;530;22;537;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.152",
+  "camera_id": null,
+  "cameraname": "10-4-3-152",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.152:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_26_13_02_59_395773.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 1,
+  "firesmoke_data": {
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    },
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 0,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81722ca732b1513e12f7"
+  },
+  "department": "RMHS33",
+  "plant": "ECR-34",
+  "area": "Roughing Mill#2 stand jobs 34",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:49",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": false,
+    "PPE": false,
+    "Parking": false,
+    "RA": false,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": true,
+    "fire": true,
+    "spillage": false,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.154",
+  "camera_id": null,
+  "cameraname": "10-4-3-154",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.154:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_14_10_25_22_819676.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 21,
+  "id": "669b81722ca732b1513e12f7",
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 1,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81742ca732b1513e12f8"
+  },
+  "department": "RMHS34",
+  "plant": "ECR-35",
+  "area": "Roughing Mill#2 stand jobs 35",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:50",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": true,
+    "dust": true,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "8;9;953;14;948;533;26;523;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.155",
+  "camera_id": null,
+  "cameraname": "10-4-3-155",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.155:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_35_41_343279.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 22,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "286;80;439;37;588;103;",
+        "camera_type": "ptz",
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "presetid": 43434,
+        "presetlocation": "98765432",
+        "roi_id": 0,
+        "roi_name": "98765432"
+      },
+      {
+        "bb_box": "640;59;640;59;764;95;567;98;",
+        "camera_type": "ptz",
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "presetid": 23,
+        "presetlocation": "098765432",
+        "roi_id": 1,
+        "roi_name": "098765432"
+      },
+      {
+        "bb_box": "508;128;545;79;628;109;",
+        "camera_type": "ptz",
+        "label_name": [
+          "fire"
+        ],
+        "presetid": 1,
+        "presetlocation": "76",
+        "roi_id": 2,
+        "roi_name": "76"
+      },
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 3,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "ptz",
+        "presetid": 1,
+        "presetlocation": "",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81752ca732b1513e12f9"
+  },
+  "department": "RMHS35",
+  "plant": "ECR-36",
+  "area": "Roughing Mill#2 stand jobs 36",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:52",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "Parking": false,
+    "RA": true,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": true,
+    "spillage": false,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 3
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "bb_box": "24;204;143;161;245;232;",
+      "roi_name": "8765432",
+      "roi_id": 1,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "analyticstype": 0
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.156",
+  "camera_id": null,
+  "cameraname": "10-4-3-156",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.156:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_28_17_45_10_854737.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 10,
+  "id": "669b81752ca732b1513e12f9",
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "162;88;353;5;468;78;",
+        "camera_type": "ptz",
+        "label_name": [
+          "fire",
+          "smoke"
+        ],
+        "presetid": 23232,
+        "presetlocation": "987654321321",
+        "roi_id": 0,
+        "roi_name": "987654321321"
+      },
+      {
+        "bb_box": "473;53;570;23;708;36;",
+        "camera_type": "ptz",
+        "full_frame": false,
+        "label_name": [
+          "fire",
+          "smoke"
+        ],
+        "presetid": 5454,
+        "presetlocation": "9876543",
+        "roi_id": 1,
+        "roi_name": "9876543"
+      },
+      {
+        "bb_box": "463;113;639;51;734;112;",
+        "roi_name": "234567HGFDS",
+        "roi_id": 2,
+        "label_name": [
+          "smoke"
+        ],
+        "camera_type": "ptz",
+        "presetid": 1,
+        "presetlocation": "234567HGFDS",
+        "full_frame": false
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81772ca732b1513e12fa"
+  },
+  "department": "RMHS36",
+  "plant": "ECR-37",
+  "area": "Roughing Mill#2 stand jobs 37",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:53",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "14;3;950;18;945;530;8;528;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.157",
+  "camera_id": null,
+  "cameraname": "10-4-3-157",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.157:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_28_17_45_22_285960.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 24
+},
+{
+  "_id": {
+    "$oid": "669b81782ca732b1513e12fb"
+  },
+  "department": "RMHS37",
+  "plant": "ECR-38",
+  "area": "Roughing Mill#2 stand jobs 38",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:55",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "12;13;951;3;934;534;13;532;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.158",
+  "camera_id": null,
+  "cameraname": "10-4-3-158",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.158:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_10_28_21_841028.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 25
+},
+{
+  "_id": {
+    "$oid": "669b817a2ca732b1513e12fc"
+  },
+  "department": "RMHS38",
+  "plant": "ECR-39",
+  "area": "Roughing Mill#2 stand jobs 39",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:56",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": true,
+    "dust": true,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "SNo": 1,
+      "alarm_ip_address": {
+        "hooter_ip": "23456789",
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": true,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "8;18;944;7;945;526;20;521;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test"
+    }
+  ],
+  "alarm_enable": true,
+  "coin_details": null,
+  "alarm_type": {
+    "hooter": true,
+    "relay": true
+  },
+  "alarm_ip_address": {
+    "hooter_ip": "23456789",
+    "relay_ip": "098765432"
+  },
+  "alarm_version": {
+    "hooter": "type1",
+    "relay": "type3"
+  },
+  "camera_ip": "10.4.3.161",
+  "camera_id": null,
+  "cameraname": "10-4-3-161",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.161:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_28_17_45_25_964820.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 26,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        },
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "bb_box": "282;59;425;15;556;93;",
+        "camera_type": "bullet",
+        "full_frame": false,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "presetid": "",
+        "presetlocation": "09876543",
+        "roi_id": 0,
+        "roi_name": "09876543"
+      },
+      {
+        "bb_box": "242;209;468;98;538;263;",
+        "roi_name": "0987654321",
+        "roi_id": 1,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "0987654321",
+        "full_frame": false,
+        "alarm_type": {
+          "hooter": true,
+          "relay": true,
+          "channel": 12
+        },
+        "alarm_ip_address": {
+          "hooter_ip": "23456789",
+          "relay_ip": "098765432"
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  },
+  "genetic_id": "",
+  "id": "669b817a2ca732b1513e12fc"
+},
+{
+  "_id": {
+    "$oid": "669b817c2ca732b1513e12fd"
+  },
+  "department": "RMHS39",
+  "plant": "ECR-40",
+  "area": "Roughing Mill#2 stand jobs 40",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:50:58",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "22;6;23;12;950;22;954;527;19;529;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.162",
+  "camera_id": null,
+  "cameraname": "10-4-3-162",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.162:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_28_17_45_50_309804.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 27
+},
+{
+  "_id": {
+    "$oid": "669b817e2ca732b1513e12fe"
+  },
+  "department": "RMHS40",
+  "plant": "ECR-41",
+  "area": "Roughing Mill#2 stand jobs 41",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:00",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "16;14;938;17;949;525;16;527;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.163",
+  "camera_id": null,
+  "cameraname": "10-4-3-163",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.163:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_36_09_417477.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 28
+},
+{
+  "_id": {
+    "$oid": "669b817f2ca732b1513e12ff"
+  },
+  "department": "RMHS41",
+  "plant": "ECR-42",
+  "area": "Roughing Mill#2 stand jobs 42",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:02",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "6;12;946;12;951;526;15;520;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.164",
+  "camera_id": null,
+  "cameraname": "10-4-3-164",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.164:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_36_11_022996.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 29
+},
+{
+  "_id": {
+    "$oid": "669b81812ca732b1513e1300"
+  },
+  "department": "RMHS42",
+  "plant": "ECR-43",
+  "area": "Roughing Mill#2 stand jobs 43",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:03",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "18;16;945;14;938;524;5;531;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.165",
+  "camera_id": null,
+  "cameraname": "10-4-3-165",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.165:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_18_46_42_088751.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 30
+},
+{
+  "_id": {
+    "$oid": "669b81822ca732b1513e1301"
+  },
+  "department": "RMHS43",
+  "plant": "ECR-44",
+  "area": "Roughing Mill#2 stand jobs 44",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:05",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "10;11;945;19;940;529;11;535;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test2",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.166",
+  "camera_id": null,
+  "cameraname": "10-4-3-166",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.166:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_18_46_49_945202.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 31
+},
+{
+  "_id": {
+    "$oid": "669b81852ca732b1513e1302"
+  },
+  "department": "RMHS44",
+  "plant": "ECR-45",
+  "area": "Roughing Mill#2 stand jobs 45",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:06",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "Parking": false,
+    "RA": false,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": false,
+    "spillage": false,
+    "POC": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.167",
+  "camera_id": null,
+  "cameraname": "10-4-3-167",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.167:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_18_46_32_200163.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 32,
+  "id": "669b81852ca732b1513e1302",
+  "poc": {
+    "wheel_count": [
+      {
+        "class_name": [
+          "wheel"
+        ],
+        "line_bbox": {
+          "line": "352;101;570;99;",
+          "arrow": "470;86;477;66;"
+        },
+        "area_name": "test",
+        "roi_id": 1,
+        "direction": "entry"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81882ca732b1513e1303"
+  },
+  "department": "RMHS45",
+  "plant": "ECR-46",
+  "area": "Roughing Mill#2 stand jobs 46",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:09",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "Parking": false,
+    "RA": false,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": false,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "11;12;949;20;949;527;16;525;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": true,
+  "coin_details": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.168",
+  "camera_id": null,
+  "cameraname": "10-4-3-168",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.168:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_36_38_842285.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 33,
+  "genetic_id": "",
+  "id": "669b81882ca732b1513e1303"
+},
+{
+  "_id": {
+    "$oid": "669b818c2ca732b1513e1305"
+  },
+  "department": "RMHS47",
+  "plant": "ECR-48",
+  "area": "Roughing Mill#2 stand jobs 48",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:14",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": true,
+    "dust": true,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "14;14;942;16;944;534;6;531;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.171",
+  "camera_id": null,
+  "cameraname": "10-4-3-171",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.171:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_36_41_007655.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 35,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 0,
+        "label_name": [
+          "fire",
+          "smoke"
+        ],
+        "camera_type": "ptz",
+        "presetid": {
+          "$numberLong": "987654320987654300"
+        },
+        "presetlocation": "kjhgfdsa",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "669b81912ca732b1513e1307"
+  },
+  "department": "RMHS50",
+  "plant": "ECR-51",
+  "area": "Roughing Mill#2 stand jobs 51",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:18",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "621;-30;956;14;937;533;14;529;19;24;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.177",
+  "camera_id": null,
+  "cameraname": "10-4-3-177",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.177:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_36_44_015464.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 37
+},
+{
+  "_id": {
+    "$oid": "669b81922ca732b1513e1308"
+  },
+  "department": "RMHS51",
+  "plant": "ECR-52",
+  "area": "Roughing Mill#2 stand jobs 52",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:21",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "10;10;947;10;950;530;22;524;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.178",
+  "camera_id": null,
+  "cameraname": "10-4-3-178",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.178:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_36_50_390063.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 38
+},
+{
+  "_id": {
+    "$oid": "669b81942ca732b1513e1309"
+  },
+  "department": "RMHS54",
+  "plant": "ECR-55",
+  "area": "Roughing Mill#2 stand jobs 55",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:23",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "bb_box": "790;35;954;20;948;522;19;536;10;17;",
+      "roi_name": "test",
+      "roi_id": 1,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "analyticstype": 0
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.181",
+  "camera_id": null,
+  "cameraname": "10-4-3-181",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.181:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_37_04_753321.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 39
+},
+{
+  "_id": {
+    "$oid": "669b81962ca732b1513e130a"
+  },
+  "department": "RMHS55",
+  "plant": "ECR-56",
+  "area": "Roughing Mill#2 stand jobs 56",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:24",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "14;10;944;13;954;532;13;538;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.182",
+  "camera_id": null,
+  "cameraname": "10-4-3-182",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.182:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_37_15_237879.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 40
+},
+{
+  "_id": {
+    "$oid": "669b81972ca732b1513e130b"
+  },
+  "department": "RMHS56",
+  "plant": "ECR-57",
+  "area": "Roughing Mill#2 stand jobs 57",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:26",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "13;13;955;12;950;525;15;526;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.183",
+  "camera_id": null,
+  "cameraname": "10-4-3-183",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.183:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_37_12_578691.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 41
+},
+{
+  "_id": {
+    "$oid": "669b81982ca732b1513e130c"
+  },
+  "department": "RMHS57",
+  "plant": "ECR-58",
+  "area": "Roughing Mill#2 stand jobs 58",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:27",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": false,
+    "PPE": true,
+    "Parking": false,
+    "RA": true,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": false,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.184",
+  "camera_id": null,
+  "cameraname": "10-4-3-184",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.184:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_12_20_30_17_565013.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 11,
+  "id": "669b81982ca732b1513e130c"
+},
+{
+  "_id": {
+    "$oid": "669b819a2ca732b1513e130d"
+  },
+  "department": "RMHS58",
+  "plant": "ECR-59",
+  "area": "Roughing Mill#2 stand jobs 59",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:28",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "1042;33;948;7;957;532;21;532;15;16;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.185",
+  "camera_id": null,
+  "cameraname": "10-4-3-185",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.185:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_37_42_800651.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 43
+},
+{
+  "_id": {
+    "$oid": "669b819b2ca732b1513e130e"
+  },
+  "department": "RMHS59",
+  "plant": "ECR-60",
+  "area": "Roughing Mill#2 stand jobs 60",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:30",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": true,
+    "dust": false,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "766;41;946;18;956;533;10;533;10;5;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.186",
+  "camera_id": null,
+  "cameraname": "10-4-3-186",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.186:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_37_39_368090.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 44,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "357;45;526;16;569;84;",
+        "camera_type": "ptz",
+        "label_name": [
+          "smoke"
+        ],
+        "presetid": 12,
+        "presetlocation": "76543",
+        "roi_id": 0,
+        "roi_name": "76543"
+      },
+      {
+        "bb_box": "372;128;520;61;714;125;",
+        "roi_name": "45454",
+        "roi_id": 1,
+        "label_name": [
+          "fire"
+        ],
+        "camera_type": "ptz",
+        "presetid": 44545,
+        "presetlocation": "45454"
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "669b819e2ca732b1513e130f"
+  },
+  "department": "RMHS60",
+  "plant": "ECR-61",
+  "area": "Roughing Mill#2 stand jobs 61",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:31",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "bb_box": "8;13;955;14;953;536;10;531;",
+      "roi_name": "test",
+      "roi_id": 1,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "analyticstype": 0
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.188",
+  "camera_id": null,
+  "cameraname": "10-4-3-188",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.188:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_00_631523.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 45
+},
+{
+  "_id": {
+    "$oid": "669b81ab2ca732b1513e1311"
+  },
+  "department": "RMHS62",
+  "plant": "ECR-63",
+  "area": "Roughing Mill#2 stand jobs 63",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:44",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "12;11;947;6;953;532;9;523;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.190",
+  "camera_id": null,
+  "cameraname": "10-4-3-190",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.190:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_02_759080.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 46
+},
+{
+  "_id": {
+    "$oid": "669b81ae2ca732b1513e1312"
+  },
+  "department": "RMHS63",
+  "plant": "ECR-64",
+  "area": "Roughing Mill#2 stand jobs 64",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:51:47",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "11;13;942;13;947;526;21;527;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.192",
+  "camera_id": null,
+  "cameraname": "10-4-3-192",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.192:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_04_232459.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 47
+},
+{
+  "_id": {
+    "$oid": "669b82002ca732b1513e131b"
+  },
+  "department": "RMHS72",
+  "plant": "ECR-73",
+  "area": "Roughing Mill#2 stand jobs 73",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:53:10",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": false,
+    "PPE": false,
+    "Parking": false,
+    "RA": false,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": true,
+    "fire": true,
+    "smoke": true,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.217",
+  "camera_id": null,
+  "cameraname": "10-4-3-217",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.217:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_10_28_38_541026.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 3,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 1,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  },
+  "id": "669b82002ca732b1513e131b"
+},
+{
+  "_id": {
+    "$oid": "669b82022ca732b1513e131c"
+  },
+  "department": "RMHS73",
+  "plant": "ECR-74",
+  "area": "Roughing Mill#2 stand jobs 74",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:53:12",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "Parking": false,
+    "RA": true,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": false,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.218",
+  "camera_id": null,
+  "cameraname": "10-4-3-218",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.218:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_10_28_54_902487.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "id": "669b82022ca732b1513e131c",
+  "cameraid": 49
+},
+{
+  "_id": {
+    "$oid": "669b82042ca732b1513e131d"
+  },
+  "department": "RMHS74",
+  "plant": "ECR-75",
+  "area": "Roughing Mill#2 stand jobs 75",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:53:14",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": false,
+    "Parking": false,
+    "RA": true,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": false,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.219",
+  "camera_id": null,
+  "cameraname": "10-4-3-219",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.219:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_30_10_29_40_737425.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 15,
+  "id": "669b82042ca732b1513e131d"
+},
+{
+  "_id": {
+    "$oid": "669b82052ca732b1513e131e"
+  },
+  "department": "RMHS75",
+  "plant": "ECR-76",
+  "area": "Roughing Mill#2 stand jobs 76",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:53:16",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": true,
+    "RA": true,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "13;11;943;10;948;529;13;528;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "test",
+      "SNo": 1
+    }
+  ],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.222",
+  "camera_id": null,
+  "cameraname": "10-4-3-222",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.222:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_09_522683.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 16
+},
+{
+  "_id": {
+    "$oid": "669b82122ca732b1513e1320"
+  },
+  "department": "RMHS78",
+  "plant": "ECR-79",
+  "area": "Roughing Mill#2 stand jobs 79",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:53:27",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": true,
+    "PPE": false,
+    "Parking": false,
+    "RA": true,
+    "TC": false,
+    "Traffic_Jam": false,
+    "dust": false,
+    "fire": false,
+    "spillage": false
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.226",
+  "camera_id": null,
+  "cameraname": "10-4-3-226",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.226:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_10_878786.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 9,
+  "id": "669b82122ca732b1513e1320"
+},
+{
+  "_id": {
+    "$oid": "669b82142ca732b1513e1321"
+  },
+  "department": "RMHS80",
+  "plant": "ECR-81",
+  "area": "Roughing Mill#2 stand jobs 81",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:53:30",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": false,
+    "PPE": false,
+    "RA": false,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": false,
+      "vest": false
+    }
+  ],
+  "cr_data": [],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.228",
+  "camera_id": null,
+  "cameraname": "10-4-3-228",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.228:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_12_560500.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123"
+},
+{
+  "_id": {
+    "$oid": "669b82352ca732b1513e1325"
+  },
+  "department": "RMHS85",
+  "plant": "ECR-86",
+  "area": "Roughing Mill#2 stand jobs 86",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:54:03",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": false,
+    "PPE": false,
+    "RA": false,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false
+  },
+  "ppe_data": [
+    {
+      "helmet": false,
+      "vest": false
+    }
+  ],
+  "cr_data": [],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.233",
+  "camera_id": null,
+  "cameraname": "10-4-3-233",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.233:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_13_959791.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123"
+},
+{
+  "_id": {
+    "$oid": "669b82692ca732b1513e132b"
+  },
+  "department": "RMHS95",
+  "plant": "ECR-96",
+  "area": "Roughing Mill#2 stand jobs 96",
+  "camera_brand": "cp_plus",
+  "timestamp": "2024-07-20 14:54:55",
+  "analytics_status": "false",
+  "ai_solution": {
+    "CR": false,
+    "PPE": true,
+    "RA": false,
+    "TC": false,
+    "Parking": false,
+    "Traffic_Jam": false,
+    "spillage": false,
+    "fire": false,
+    "dust": false,
+    "smoke": true
+  },
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": true
+    }
+  ],
+  "cr_data": [],
+  "tc_data": [],
+  "roi_data": [],
+  "alarm_enable": false,
+  "coin_details": null,
+  "alarm_type": [
+    {
+      "hooter": null,
+      "relay": null
+    }
+  ],
+  "alarm_ip_address": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "camera_ip": "10.4.3.224",
+  "camera_id": null,
+  "cameraname": "10-4-3-224",
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.224:554/cam/realmonitor?channel=1&subtype=0",
+  "camera_status": true,
+  "imagename": "docketrun_2024_09_13_10_38_30_576615.jpg",
+  "image_height": 544,
+  "image_width": 960,
+  "username": "admin",
+  "password": "admin123",
+  "cameraid": 10,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "296;65;296;65;384;166;227;157;",
+        "roi_name": "987654kjhgfd",
+        "roi_id": 0,
+        "label_name": [
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": 0,
+        "presetlocation": "987654kjhgfd"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66b46b52ee68944b9269ba18"
+  },
+  "department": "akkkd",
+  "camera_ip": "10.4.3.180",
+  "username": "888888",
+  "password": "888888",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "EandCCricle",
+  "plant": "NearoppositeToMech",
+  "area": "akkkd",
+  "imagename": "docketrun_2024_09_30_10_29_47_276781.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 2,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "SNo": 1,
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "114;448;357;377;",
+      "bb_box": "768;224;762;207;796;207;908;219;930;241;932;275;857;305;800;339;745;392;637;430;598;465;535;511;375;536;67;536;10;521;7;364;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 21
+      },
+      "roi_id": 1,
+      "roi_name": "Ndadkdkdk"
+    },
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "713;268;458;326;",
+      "bb_box": "788;209;907;216;937;255;928;293;841;369;754;407;628;477;485;515;415;532;70;531;25;530;8;474;14;391;14;316;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "car",
+        "objects_tobe_protected": "person",
+        "sensitivity": 15
+      },
+      "roi_id": 2,
+      "roi_name": "cvbnm",
+      "SNo": 2
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": true,
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://888888:888888@10.4.3.180:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 12:23:06",
+  "ai_solution": {
+    "PPE": true,
+    "Protection_Zone": true,
+    "smoke": true,
+    "fire": true,
+    "dust": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "375;73;469;49;603;106;",
+        "camera_type": "bullet",
+        "label_name": [
+          "smoke"
+        ],
+        "presetid": 0,
+        "presetlocation": "9876543",
+        "roi_id": 1,
+        "roi_name": "9876543"
+      },
+      {
+        "bb_box": "457;153;684;76;711;152;",
+        "camera_type": "bullet",
+        "label_name": [
+          "smoke"
+        ],
+        "presetid": 0,
+        "presetlocation": "09876543",
+        "roi_id": 2,
+        "roi_name": "09876543"
+      },
+      {
+        "bb_box": "146;107;331;79;364;147;",
+        "camera_type": "bullet",
+        "label_name": [
+          "smoke"
+        ],
+        "presetid": 0,
+        "presetlocation": "09876543rewq",
+        "roi_id": 4,
+        "roi_name": "09876543rewq"
+      },
+      {
+        "bb_box": "639;183;617;46;757;122;",
+        "camera_type": "bullet",
+        "label_name": [
+          "smoke"
+        ],
+        "presetid": 0,
+        "presetlocation": "098765421",
+        "roi_id": 6,
+        "roi_name": "098765421"
+      },
+      {
+        "bb_box": "78;49;223;12;79;107;",
+        "roi_name": "987654321",
+        "roi_id": 7,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "ptz",
+        "presetid": 23,
+        "presetlocation": "987654321"
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b46e4eee68944b9269ba1a"
+  },
+  "department": "adkkdkdkkddkkddf",
+  "camera_ip": "10.4.3.146",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "MechsecondEntry",
+  "plant": "akdkdk",
+  "area": "akddkdk",
+  "imagename": "docketrun_2024_09_30_10_29_48_335121.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 9,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "528;85;650;131;",
+      "bb_box": "522;137;592;109;722;104;867;154;916;170;938;224;930;248;920;319;793;355;536;191;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 16
+      },
+      "roi_id": 1,
+      "roi_name": "sdfghm",
+      "SNo": 1
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": true,
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.4.3.146:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 12:35:50",
+  "ai_solution": {
+    "PPE": true,
+    "Protection_Zone": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null
+},
+{
+  "_id": {
+    "$oid": "66b471edee68944b9269ba1b"
+  },
+  "department": "akdkdkdkdd",
+  "camera_ip": "10.5.0.214",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "Biotechbackside",
+  "plant": "Maketest",
+  "area": "Fortestforimprovements",
+  "imagename": "docketrun_2024_09_30_10_29_50_052721.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 3,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "892;162;646;205;",
+      "bb_box": "306;298;542;112;676;37;922;79;937;248;955;508;935;537;486;514;188;496;165;413;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 17
+      },
+      "roi_id": 1,
+      "roi_name": "xcvbnm",
+      "SNo": 1
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": true,
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.5.0.214:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 12:51:17",
+  "ai_solution": {
+    "Protection_Zone": true,
+    "PPE": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null
+},
+{
+  "_id": {
+    "$oid": "66b478eaee68944b9269ba1c"
+  },
+  "department": "djjdhh",
+  "camera_ip": "10.5.0.246",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "JunkYard",
+  "plant": "jjjjddjjd",
+  "area": "jjdjhdjj",
+  "imagename": "docketrun_2024_09_30_10_29_51_075104.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 4,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 0,
+      "bb_box": "499;143;499;143;568;276;644;221;",
+      "label_name": [
+        "person"
+      ],
+      "roi_id": 1,
+      "roi_name": "iuy",
+      "SNo": 1
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": false,
+      "helmet": false,
+      "vest": false
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.5.0.246:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:21:06",
+  "ai_solution": {
+    "PPE": false,
+    "fire": false,
+    "smoke": false,
+    "dust": false,
+    "RA": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "firesmoke_data": {
+    "roi_parameters": [],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b47952ee68944b9269ba1d"
+  },
+  "department": "djjjdd",
+  "camera_ip": "10.5.0.247",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "OUtsidecmaer",
+  "plant": "jajdjasdjj",
+  "area": "ajdjjasj",
+  "imagename": "docketrun_2024_09_30_10_31_39_131063.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 4,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": true,
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.5.0.247:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:22:50",
+  "ai_solution": {
+    "NO_Parking": false,
+    "PPE": false,
+    "Protection_Zone": false,
+    "RA": false,
+    "Parking": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "vpms_data": [
+    {
+      "bb_box": "34;160;300;97;421;103;340;168;92;233;2;196;",
+      "roi_name": "ddsfdsdffffff",
+      "roi_id": 1,
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "selected_objects": [
+        "Motorbike",
+        "Bus"
+      ],
+      "other_objects_violation": {
+        "violation": "yes",
+        "violation_objects": [
+          "Bicycle",
+          "Car",
+          "Truck"
+        ]
+      },
+      "set_time_option": null,
+      "date": {
+        "startDate": null,
+        "endDate": null
+      },
+      "other_time_violation": null,
+      "parking_type": "parking",
+      "vehicle_verification_time": "20"
+    }
+  ],
+  "id": "66b47952ee68944b9269ba1d"
+},
+{
+  "_id": {
+    "$oid": "66b479c6ee68944b9269ba1e"
+  },
+  "department": "test-1",
+  "camera_ip": "10.5.0.248",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "test-1",
+  "plant": "test-1",
+  "area": "test-1",
+  "imagename": "docketrun_2024_09_26_13_42_58_804137.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 1,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "SNo": 1,
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "724;320;442;181;",
+      "bb_box": "185;23;245;13;453;79;806;261;919;283;927;466;879;541;618;523;483;523;408;521;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 15
+      },
+      "roi_id": 1,
+      "roi_name": "backsidecameras"
+    },
+    {
+      "SNo": 2,
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "316;77;404;206;",
+      "bb_box": "177;20;289;12;474;76;957;311;943;527;390;529;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "car",
+        "objects_tobe_protected": "person",
+        "sensitivity": 15
+      },
+      "roi_id": 2,
+      "roi_name": "sdasdasdfddd"
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [
+    {
+      "bb_box": "",
+      "full_frame": true,
+      "roi_id": null,
+      "area_name": "",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 2
+        }
+      ]
+    }
+  ],
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": true,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "crash_helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        }
+      ]
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.5.0.248:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:24:46",
+  "ai_solution": {
+    "PPE": true,
+    "Protection_Zone": true,
+    "RA": false,
+    "Traffic_Jam": true,
+    "CR": true,
+    "NO_Parking": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": "",
+  "trafficjam_data": [
+    {
+      "bb_box": "91;35;524;14;937;355;933;509;153;510;",
+      "roi_name": "test",
+      "roi_id": 1,
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "selected_objects": [
+        "Bicycle",
+        "Car",
+        "Motorbike",
+        "Bus",
+        "Truck"
+      ],
+      "min_time": {
+        "hour": 0,
+        "minute": 0,
+        "second": 10
+      },
+      "traffic_jam_percentage": 20
+    }
+  ],
+  "vpms_data": [
+    {
+      "bb_box": "222;49;441;29;936;296;921;528;547;515;358;442;",
+      "roi_name": "sdfghjfgggggg",
+      "roi_id": 1,
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "selected_objects": [
+        "Bicycle",
+        "Car",
+        "Motorbike",
+        "Bus",
+        "Truck"
+      ],
+      "other_objects_violation": null,
+      "set_time_option": null,
+      "date": null,
+      "other_time_violation": null,
+      "parking_type": "no-parking",
+      "vehicle_verification_time": 10
+    }
+  ],
+  "id": "66b479c6ee68944b9269ba1e"
+},
+{
+  "_id": {
+    "$oid": "66b47a80ee68944b9269ba1f"
+  },
+  "department": "test-2",
+  "camera_ip": "10.7.0.111",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "test-2",
+  "plant": "test-2",
+  "area": "test-2",
+  "imagename": "docketrun_2024_09_26_13_51_24_323236.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 2,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "SNo": 1,
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null,
+        "voice_announcement_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null,
+        "voice_announcement": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "837;236;617;395;",
+      "bb_box": "31;465;725;247;950;290;784;536;137;537;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 41
+      },
+      "roi_id": 1,
+      "roi_name": "protectionzone"
+    },
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null,
+        "voice_announcement_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null,
+        "voice_announcement": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "841;240;631;409;",
+      "bb_box": "42;465;726;246;953;295;785;532;138;536;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "car",
+        "objects_tobe_protected": "person",
+        "sensitivity": 47
+      },
+      "roi_id": 2,
+      "roi_name": "protectionzone1",
+      "SNo": 2
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": true,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "crash_helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        }
+      ]
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.7.0.111:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:27:52",
+  "ai_solution": {
+    "CR": false,
+    "NO_Parking": true,
+    "PPE": true,
+    "Protection_Zone": true,
+    "RA": false,
+    "Parking": false,
+    "fire": true,
+    "smoke": true,
+    "dust": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": "",
+  "vpms_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "bb_box": "10;460;136;538;388;539;784;538;955;330;951;288;767;249;720;241;",
+      "date": null,
+      "other_objects_violation": null,
+      "other_time_violation": null,
+      "parking_type": "no-parking",
+      "roi_id": 1,
+      "roi_name": "fghfgggggghhh",
+      "selected_objects": [
+        "Bicycle",
+        "Car",
+        "Motorbike",
+        "Bus",
+        "Truck"
+      ],
+      "set_time_option": null,
+      "vehicle_verification_time": 10,
+      "SNo": 1
+    },
+    {
+      "bb_box": "32;363;189;332;296;309;438;287;515;265;613;218;527;192;447;187;140;245;4;282;",
+      "roi_name": "hhjjuuu",
+      "roi_id": 2,
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "selected_objects": [
+        "Bicycle",
+        "Car",
+        "Motorbike",
+        "Bus",
+        "Truck"
+      ],
+      "other_objects_violation": null,
+      "set_time_option": null,
+      "date": null,
+      "other_time_violation": null,
+      "parking_type": "no-parking",
+      "vehicle_verification_time": 10
+    }
+  ],
+  "id": "66b47a80ee68944b9269ba1f",
+  "firesmoke_data": {
+    "roi_parameters": [],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b47b7aee68944b9269ba21"
+  },
+  "department": "adfasdf",
+  "camera_ip": "10.7.0.121",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "SecurityGate",
+  "plant": "adsfasdf",
+  "area": "adsfasd",
+  "imagename": "docketrun_2024_09_26_13_43_08_033047.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 3,
+  "alarm_type": {
+    "hooter": "",
+    "relay": true
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": "10.11.1.2"
+  },
+  "roi_data": [
+    {
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "750;104;607;133;",
+      "bb_box": "733;74;904;59;919;154;795;403;772;442;728;483;668;509;509;520;193;520;118;519;46;504;33;437;33;361;48;301;90;252;91;146;86;51;462;13;646;21;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 27
+      },
+      "roi_id": 1,
+      "roi_name": "securitygate",
+      "SNo": 1
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": true,
+      "helmet": true,
+      "vest": true
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.7.0.121:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:32:02",
+  "ai_solution": {
+    "NO_Parking": false,
+    "PPE": true,
+    "Protection_Zone": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": "type1"
+  },
+  "genetic_id": "",
+  "vpms_data": [
+    {
+      "bb_box": "89;262;598;88;924;133;774;525;1;530;16;329;",
+      "roi_name": "NoparkingNearby",
+      "roi_id": 1,
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "selected_objects": [
+        "Bicycle",
+        "Car",
+        "Motorbike",
+        "Bus",
+        "Truck"
+      ],
+      "other_objects_violation": null,
+      "set_time_option": null,
+      "date": null,
+      "other_time_violation": null,
+      "parking_type": "no-parking",
+      "vehicle_verification_time": "20"
+    }
+  ],
+  "id": "66b47b7aee68944b9269ba21"
+},
+{
+  "_id": {
+    "$oid": "66b47c73ee68944b9269ba22"
+  },
+  "department": "dkkkdkd",
+  "camera_ip": "10.7.0.130",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "Backcamera",
+  "plant": "kkkddj",
+  "area": "dkdkkd",
+  "imagename": "docketrun_2024_09_13_10_39_02_740491.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 8,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "bb_box": "67;100;156;82;279;82;347;156;503;318;671;388;898;451;840;517;759;528;666;528;557;528;399;526;335;526;260;526;188;521;90;508;54;507;23;485;20;459;7;297;",
+      "arrow_line": "199;166;214;284;",
+      "roi_name": "dfghjk",
+      "roi_id": 1,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "analyticstype": 2,
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 25
+      }
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "helmet": false,
+      "vest": false,
+      "crash_helmet": true
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.7.0.130:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:36:11",
+  "ai_solution": {
+    "PPE": true,
+    "Protection_Zone": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null
+},
+{
+  "_id": {
+    "$oid": "66b48143ee68944b9269ba25"
+  },
+  "department": "dfddd",
+  "camera_ip": "10.7.0.245",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "Prerangroudn",
+  "plant": "fasdfd",
+  "area": "dddf",
+  "imagename": "docketrun_2024_09_26_13_43_19_631500.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 9,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [
+    {
+      "SNo": 1,
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "analyticstype": 2,
+      "arrow_line": "374;161;396;218;",
+      "bb_box": "232;130;322;119;404;120;437;188;644;300;915;464;904;499;253;513;",
+      "label_name": [
+        "person"
+      ],
+      "objectdetails": {
+        "objects_in_motion": "car",
+        "objects_tobe_protected": "person",
+        "sensitivity": 4
+      },
+      "roi_id": 1,
+      "roi_name": "qweqwer"
+    },
+    {
+      "bb_box": "234;171;495;201;682;133;680;102;592;75;536;69;426;61;251;58;",
+      "arrow_line": "536;267;445;155;",
+      "roi_name": "xcvbnm",
+      "roi_id": 2,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null
+      },
+      "analyticstype": 2,
+      "objectdetails": {
+        "objects_in_motion": "motorbike",
+        "objects_tobe_protected": "person",
+        "sensitivity": 4
+      }
+    }
+  ],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "crash_helmet": true,
+      "helmet": false,
+      "vest": false
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.7.0.245:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-08-08 13:56:43",
+  "ai_solution": {
+    "Protection_Zone": true,
+    "PPE": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null
+},
+{
+  "_id": {
+    "$oid": "66da98d6ae3ae5853ca2589c"
+  },
+  "department": "test110987654321987654321`",
+  "camera_ip": "10.11.3.229",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "adsks4329876543210987654321",
+  "plant": "adskdk",
+  "area": "dadk",
+  "imagename": "docketrun_2024_09_30_10_32_15_328967.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 4,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [
+    {
+      "bb_box": "117;304;478;158;595;76;711;74;845;159;912;326;818;405;784;464;571;486;354;489;290;491;",
+      "roi_name": "sdfasdfasdfasdf",
+      "roi_id": 1,
+      "label_name": [
+        "person"
+      ],
+      "alarm_type": {
+        "hooter": null,
+        "relay": null,
+        "voice_announcement": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null,
+        "voice_announcement_ip": null
+      },
+      "analyticstype": 0
+    }
+  ],
+  "tc_data": [
+    {
+      "class_name": [
+        "person"
+      ],
+      "line_bbox": {
+        "line": "812;83;952;134;",
+        "arrow": "909;80;819;153;"
+      },
+      "area_name": "nEWENTRY",
+      "roi_id": 1,
+      "direction": "entry"
+    },
+    {
+      "class_name": [
+        "person"
+      ],
+      "line_bbox": {
+        "line": "803;92;949;149;",
+        "arrow": "872;180;934;112;"
+      },
+      "area_name": "eXIT",
+      "roi_id": 2,
+      "direction": "exit"
+    }
+  ],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "alert_details": [
+        {
+          "channel": null,
+          "hooter": null,
+          "hooter_ip": null,
+          "label": "helmet",
+          "relay": null,
+          "relay_ip": null
+        },
+        {
+          "channel": null,
+          "hooter": null,
+          "hooter_ip": null,
+          "label": "vest",
+          "relay": null,
+          "relay_ip": null
+        },
+        {
+          "channel": null,
+          "hooter": null,
+          "hooter_ip": null,
+          "label": "crash_helmet",
+          "relay": null,
+          "relay_ip": null
+        }
+      ],
+      "crash_helmet": false,
+      "helmet": true,
+      "vest": false
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.11.3.229:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-09-06 11:23:26",
+  "ai_solution": {
+    "CR": false,
+    "PPE": true,
+    "Protection_Zone": false,
+    "RA": true,
+    "TC": true,
+    "dust": true,
+    "fire": true,
+    "smoke": true
+  },
+  "analytics_status": "false",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": "00000001-0000-babe-0000-a0bd1d3ffa7f",
+  "id": "66da98d6ae3ae5853ca2589c",
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 0,
+        "label_name": [
+          "smoke"
+        ],
+        "camera_type": "ptz",
+        "presetid": 21,
+        "presetlocation": "12121",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66e93c04bd41286814ef331c"
+  },
+  "department": "asdfasd",
+  "camera_ip": "192.168.1.136",
+  "username": "docketrun",
+  "password": "docketrun",
+  "camera_brand": "docketrun",
+  "rtsp_port": "7000",
+  "cameraname": "dfghsfdf",
+  "plant": "safsdf",
+  "area": "asdfasd",
+  "imagename": "safsdf_asdfasd_2024_09_17_13_51_20_404808.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://192.168.1.5:7000/ds-test",
+  "timestamp": "2024-09-17 13:51:24",
+  "ai_solution": {
+    "fire": false,
+    "smoke": true,
+    "dust": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "firesmoke_data": {
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    },
+    "roi_parameters": [
+      {
+        "bb_box": "149;310;229;245;363;246;397;306;341;336;316;364;215;362;158;360;",
+        "roi_name": "adfddfdfffd",
+        "roi_id": 1,
+        "label_name": [
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "adfddfdfffd",
+        "full_frame": false,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66e93ccabd41286814ef331d"
+  },
+  "department": "asdfghjk",
+  "camera_ip": "192.168.1.48",
+  "username": "docketrun",
+  "password": "docketrun",
+  "camera_brand": "docketrun",
+  "rtsp_port": "7001",
+  "cameraname": "Zxcvgbn",
+  "plant": "sdfghjkl",
+  "area": "asdfghj",
+  "imagename": "sdfghjkl_asdfghj_2024_09_17_13_54_32_367212.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://192.168.1.5:7001/ds-test",
+  "timestamp": "2024-09-17 13:54:42",
+  "ai_solution": {
+    "fire": false,
+    "smoke": false,
+    "dust": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "firesmoke_data": {
+    "roi_parameters": [
+      {
+        "bb_box": "673;229;701;250;733;256;753;242;745;218;708;209;673;201;",
+        "roi_name": "dffgggfggggfffff",
+        "roi_id": 1,
+        "label_name": [
+          "dust"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "dffgggfggggfffff",
+        "full_frame": false,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ],
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 10,
+      "image_save_interval": 10,
+      "analytics_event_stop_interval": 10
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66e950e8bd41286814ef331e"
+  },
+  "department": "sdgd",
+  "camera_ip": "192.168.1.54",
+  "username": "docketrun",
+  "password": "docketrun",
+  "camera_brand": "docketrun",
+  "rtsp_port": "6999",
+  "cameraname": "asdfasdfddd",
+  "plant": "dfghjkl",
+  "area": "sdfghj",
+  "imagename": "dfghjkl_sdfghj_2024_09_17_15_20_28_088033.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://192.168.1.5:6999/ds-test",
+  "timestamp": "2024-09-17 15:20:32",
+  "ai_solution": {
+    "fire": true,
+    "smoke": true,
+    "dust": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "firesmoke_data": {
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 1,
+      "image_save_interval": 1,
+      "analytics_event_stop_interval": 5
+    },
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 0,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66e951b9bd41286814ef331f"
+  },
+  "department": "ddffffdddd",
+  "camera_ip": "192.168.1.232",
+  "username": "docketrun",
+  "password": "docketrun",
+  "camera_brand": "docketrun",
+  "rtsp_port": "7002",
+  "cameraname": "asdfasdf",
+  "plant": "adsfsdddd",
+  "area": "ddddcccd",
+  "imagename": "adsfsdddd_ddddcccd_2024_09_17_15_23_51_499533.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://192.168.1.5:7002/ds-test",
+  "timestamp": "2024-09-17 15:24:01",
+  "ai_solution": {
+    "fire": true,
+    "smoke": true,
+    "dust": true,
+    "POC": false
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "firesmoke_data": {
+    "static_parameters": {
+      "process_mode": "image",
+      "frame_verification": 1,
+      "image_save_interval": 1,
+      "analytics_event_stop_interval": 5
+    },
+    "roi_parameters": [
+      {
+        "bb_box": "",
+        "roi_name": "",
+        "roi_id": 0,
+        "label_name": [
+          "fire",
+          "dust",
+          "smoke"
+        ],
+        "camera_type": "bullet",
+        "presetid": "",
+        "presetlocation": "",
+        "full_frame": true,
+        "alarm_type": {
+          "hooter": null,
+          "relay": null
+        },
+        "alarm_ip_address": {
+          "hooter_ip": null,
+          "relay_ip": null
+        }
+      }
+    ]
+  },
+  "poc": {
+    "wheel_count": []
+  }
+},
+{
+  "_id": {
+    "$oid": "6705032074d247f9d88c81d2"
+  },
+  "department": "rhk",
+  "camera_ip": "192.168.1.117",
+  "username": "docketrun",
+  "password": "docketrun",
+  "camera_brand": "docketrun",
+  "rtsp_port": "7007",
+  "cameraname": "cam1",
+  "plant": "bvb",
+  "area": "bvb",
+  "imagename": "bvb_bvb_2024_10_08_15_32_01_755487.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://192.168.1.5:7007/ds-test",
+  "timestamp": "2024-10-08 15:32:08",
+  "ai_solution": {
+    "POC": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "poc": {
+    "wheel_count": [
+      {
+        "class_name": [
+          "wheel"
+        ],
+        "line_bbox": {
+          "line": "125;184;130;315;",
+          "arrow": "164;269;101;272;"
+        },
+        "area_name": "andkdkdk",
+        "roi_id": 5,
+        "direction": "entry",
+        "preset_value": "40"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "670503bc74d247f9d88c81d3"
+  },
+  "department": "rhk_building",
+  "camera_ip": "192.168.1.88",
+  "username": "docketrun",
+  "password": "docketrun",
+  "camera_brand": "docketrun",
+  "rtsp_port": "7008",
+  "cameraname": "cam2",
+  "plant": "bvb",
+  "area": "bvb",
+  "imagename": "bvb_bvb_2024_10_08_15_34_42_958431.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://192.168.1.5:7008/ds-test",
+  "timestamp": "2024-10-08 15:34:44",
+  "ai_solution": {
+    "POC": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "poc": {
+    "wheel_count": [
+      {
+        "class_name": [
+          "wheel"
+        ],
+        "line_bbox": {
+          "line": "130;180;132;334;",
+          "arrow": "174;285;64;277;"
+        },
+        "area_name": " ghhhhhjhjj",
+        "roi_id": 3,
+        "direction": "entry",
+        "preset_value": "45"
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "67078ce4ffa61c1d3fc16a7e"
+  },
+  "department": "asdfasdfasd",
+  "camera_ip": "10.11.3.149",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "alsdflasdfl",
+  "plant": "asdfasd",
+  "area": "asdfas",
+  "imagename": "asdfasd_asdfas_2024_10_10_13_44_27_288875.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 4,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": false,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "vest",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "crash_helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        }
+      ]
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.11.3.149:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-10-10 13:44:28",
+  "ai_solution": {
+    "PPE": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": "172f24a9-3766-4005-b539-b78543989347"
+},
+{
+  "_id": {
+    "$oid": "6707a6a496fb3fb99faf28e6"
+  },
+  "department": "djmmdjd",
+  "camera_ip": "10.6.3.121",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "asdasd",
+  "plant": "mmfjjfjfj",
+  "area": "djjdmmdjd",
+  "imagename": "docketrun_2024_10_15_12_35_22_931343.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": null,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.6.3.121:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-10-10 15:34:20",
+  "ai_solution": {
+    "NO_Parking": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "vpms_data": [
+    {
+      "bb_box": "411;152;504;118;644;115;758;190;795;400;710;517;515;537;299;506;278;467;301;321;",
+      "roi_name": "rhkcircle",
+      "roi_id": 1,
+      "alarm_type": {
+        "hooter": null,
+        "relay": null,
+        "voice_announcement": null
+      },
+      "alarm_ip_address": {
+        "hooter_ip": null,
+        "relay_ip": null,
+        "voice_announcement_ip": null
+      },
+      "selected_objects": [
+        "Bicycle",
+        "Car",
+        "Motorbike",
+        "Bus",
+        "Truck"
+      ],
+      "other_objects_violation": null,
+      "set_time_option": null,
+      "date": null,
+      "other_time_violation": null,
+      "parking_type": "no-parking",
+      "vehicle_verification_time": "20"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6707a7b696fb3fb99faf28e7"
+  },
+  "department": "kasdfkasdkfkd",
+  "camera_ip": "10.6.3.122",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "ghjmkkkdkdkddkkdkdfkdfjkafksdfkasdkfaklkljasddkj",
+  "plant": "kkddkkdkdkd",
+  "area": "kdkdkddkk",
+  "imagename": "docketrun_2024_10_15_12_35_13_335619.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 5,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [],
+  "tc_data": [
+    {
+      "class_name": [
+        "motorbike"
+      ],
+      "line_bbox": {
+        "line": "422;182;805;160;",
+        "arrow": "654;216;612;106;"
+      },
+      "area_name": "motorbikeexit",
+      "roi_id": 1,
+      "direction": "exit"
+    }
+  ],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "helmet": false,
+      "vest": false,
+      "crash_helmet": true,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "crash_helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        }
+      ]
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.6.3.122:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-10-10 15:38:54",
+  "ai_solution": {
+    "PPE": true,
+    "TC": false
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null,
+  "id": "6707a7b696fb3fb99faf28e7"
+},
+{
+  "_id": {
+    "$oid": "6707a83196fb3fb99faf28e8"
+  },
+  "department": "dldldld",
+  "camera_ip": "10.6.3.123",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "asdksdkdkkd",
+  "plant": "kkdldldl",
+  "area": "dflldldl",
+  "imagename": "docketrun_2024_10_15_12_34_06_926900.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 6,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [],
+  "tc_data": [],
+  "cr_data": [],
+  "ppe_data": [
+    {
+      "helmet": true,
+      "vest": true,
+      "crash_helmet": false,
+      "alert_details": [
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "vest",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        },
+        {
+          "hooter": null,
+          "relay": null,
+          "hooter_ip": null,
+          "relay_ip": null,
+          "channel": null,
+          "label": "crash_helmet",
+          "voice_announcement": {},
+          "voice_announcement_ip": null
+        }
+      ]
+    }
+  ],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.6.3.123:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-10-10 15:40:57",
+  "ai_solution": {
+    "PPE": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null
+},
+{
+  "_id": {
+    "$oid": "670dfadc96fb3fb99faf28eb"
+  },
+  "department": "test-1",
+  "camera_ip": "10.6.3.160",
+  "username": "admin",
+  "password": "admin123",
+  "camera_brand": "cp_plus",
+  "rtsp_port": "554",
+  "cameraname": "test-1",
+  "plant": "test-1",
+  "area": "test-1",
+  "imagename": "docketrun_2024_10_15_12_35_27_667141.jpg",
+  "image_height": "544",
+  "image_width": "960",
+  "cameraid": 7,
+  "alarm_type": {
+    "hooter": null,
+    "relay": null
+  },
+  "coin_details": null,
+  "alarm_enable": true,
+  "alarm_ip_address": {
+    "hooter_ip": null,
+    "relay_ip": null
+  },
+  "roi_data": [],
+  "tc_data": [
+    {
+      "class_name": [
+        "bicycle"
+      ],
+      "line_bbox": {
+        "line": "170;264;168;528;",
+        "arrow": "36;349;333;342;"
+      },
+      "area_name": "line_1",
+      "roi_id": 1,
+      "direction": "entry"
+    },
+    {
+      "class_name": [
+        "car"
+      ],
+      "line_bbox": {
+        "line": "191;267;184;521;",
+        "arrow": "93;400;342;392;"
+      },
+      "area_name": "line_2",
+      "roi_id": 2,
+      "direction": "entry"
+    },
+    {
+      "class_name": [
+        "motorbike"
+      ],
+      "line_bbox": {
+        "line": "208;265;210;525;",
+        "arrow": "137;456;363;448;"
+      },
+      "area_name": "line_3",
+      "roi_id": 3,
+      "direction": "entry"
+    },
+    {
+      "class_name": [
+        "bus"
+      ],
+      "line_bbox": {
+        "line": "231;265;229;531;",
+        "arrow": "156;497;411;493;"
+      },
+      "area_name": "line_4",
+      "roi_id": 4,
+      "direction": "entry"
+    },
+    {
+      "class_name": [
+        "truck"
+      ],
+      "line_bbox": {
+        "line": "253;265;251;537;",
+        "arrow": "171;518;451;523;"
+      },
+      "area_name": "line_5",
+      "roi_id": 5,
+      "direction": "entry"
+    }
+  ],
+  "cr_data": [
+    {
+      "bb_box": "9;9;951;10;953;535;11;534;",
+      "full_frame": false,
+      "roi_id": 1,
+      "area_name": "crowd_count",
+      "data_object": [
+        {
+          "class_name": "person",
+          "min_count": 1,
+          "max_count": 6
+        }
+      ],
+      "alarm_type": {
+        "voice_announcement": null
+      },
+      "alarm_ip_address": {
+        "voice_announcement_ip": null
+      }
+    }
+  ],
+  "ppe_data": [],
+  "camera_status": true,
+  "rtsp_url": "rtsp://admin:admin123@10.6.3.160:554/cam/realmonitor?channel=1&subtype=0",
+  "timestamp": "2024-10-15 10:47:16",
+  "ai_solution": {
+    "CR": true,
+    "TC": true
+  },
+  "analytics_status": "true",
+  "alarm_version": {
+    "hooter": null,
+    "relay": null
+  },
+  "genetic_id": null
+}]
